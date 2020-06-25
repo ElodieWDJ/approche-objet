@@ -12,7 +12,12 @@ public class TestPersonne {
 		
 		Personne personne1 = new Personne ("Martine","Marchand",adresse1);
 		Personne personne2 = new Personne("Marion","Pimpin",adresse2);
-		
+	
+	//adresse1.showAdresse("");	
+	personne1.showNom("");	
+	personne1.setPrénom("Jaja");
+	personne1.setNom("Dupont");
+	personne1.prenomNomMaj();
 	
 			
 	}

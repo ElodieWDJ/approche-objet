@@ -8,9 +8,7 @@ public class AdressePostale {
 	
 //constructeur par défaut
 	
-public AdressePostale() {
-	
-}
+
 
 //constructeur avec paramétres
 

@@ -16,35 +16,33 @@ public class Personne {
 		this.adresse = nvadresse;
 	}
 	
-	public void prenomNomMaj() {
-		System.out.println(nom.toUpperCase() +" "+ prénom);
+	public String getIdentite() {
+		return nom.toUpperCase() +" "+ prénom;
+	}
+
+	public void getNom() {
+		this.nom = nom;
+	}
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+	public String getPrénom() {
+		return prénom;
+	}
+
+	public void setPrénom(String prénom) {
+		this.prénom = prénom;
+	}
+
+	public AdressePostale getAdresse() {
+		return adresse;
+	}
+
+	public void setAdresse(AdressePostale adresse) {
+		this.adresse = adresse;
 	}
 	
-	public void setNom(String nvnom) {
-		this.nom = nvnom;
-		
-	}
-	
-	public void setPrénom(String nvprénom) {
-		this.prénom = nvprénom;
-	}
-	
-	public void setAdresse(AdressePostale nvadresse) {
-		this.adresse = nvadresse;
-	}
-	
-	public String showNom(String nvnom) {
-		return nvnom + "";
-		
-	}
-	
-	public String showPrénom(String nvprénom) {
-		return nvprénom + "";
-		
-	}
-	public String showAdresse(String nvadresse) {
-		return nvadresse + "";
-		
-	}
 
 }

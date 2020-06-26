@@ -13,11 +13,14 @@ public class TestPersonne {
 		Personne personne1 = new Personne ("Martine","Marchand",adresse1);
 		Personne personne2 = new Personne("Marion","Pimpin",adresse2);
 	
+		String identite1 = personne1.getIdentite();
+		String identite2 = personne2.getIdentite();
+		
 	//adresse1.showAdresse("");	
-	personne1.showNom("");	
+	personne1.getNom();	
 	personne1.setPrénom("Jaja");
 	personne1.setNom("Dupont");
-	personne1.prenomNomMaj();
+	personne1.getIdentite();
 	
 			
 	}

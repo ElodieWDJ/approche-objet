@@ -2,8 +2,11 @@ package listes;
 
 import java.util.ArrayList;
 
+import listes.entites.Ville.Villes;
+
 public class TestListeString {
 
+	@SuppressWarnings("null")
 	public static void main(String[] args) {
 		ArrayList<String> liste = new ArrayList<>();
 		liste.add("Nice");
@@ -24,6 +27,7 @@ public class TestListeString {
 		}
 		System.out.println(ref);
 		
+		ArrayList<String> villes = null;
 		for (int i = 0; i<villes.size();i++) {
 			String ville = Villes.get(i);
 			String villeMaj = ville.toUpperCase();

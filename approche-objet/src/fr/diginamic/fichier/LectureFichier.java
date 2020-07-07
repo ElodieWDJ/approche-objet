@@ -1,9 +1,10 @@
 package fr.diginamic.fichier;
 
 import java.io.File;
-import java.util.List;
-import org.apache.commons.io.FileUtils;
 import java.io.IOException;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
 
 public class LectureFichier {
 

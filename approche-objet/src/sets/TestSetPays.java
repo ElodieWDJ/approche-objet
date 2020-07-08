@@ -1,5 +1,6 @@
 package sets;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -18,7 +19,15 @@ public class TestSetPays {
 		set.add(new Pays("Russie", 65476588, 92 ));
 		set.add(new Pays("Inde", 568678769, 65 ));
 		
+		Pays paysReference = set.iterator().next();
 		
+			for (Pays pays: set) {
+				if (pays.getPibHabitant()> paysReference.getPibHabitant()){
+					paysReference = pays;
+				}
+				
+			}
+		System.out.println("Le pays avec le PIB/habitant le plus élevé est: " + paysReference);
 		
 
 	}
